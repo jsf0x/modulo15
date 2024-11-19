@@ -13,6 +13,9 @@
         border: 1px solid rgb(3, 170, 200);
         border-radius: 30px;
       }
+      #custon{
+        color: red;
+      }
     </style>
   </head>
   <body>
@@ -22,8 +25,12 @@
     <main>
       <section id="intro">
         <h2>Control del mouse</h2>
-        <p id="mi_presentacion1">Esta es mi pagina web, con etiquetas, enlaces, menu, interaccion javaScript, encabezado y pie de pagina...</p>
-        <p id="mi_presentacion2">Esta es mi pagina web, con etiquetas, enlaces, menu, interaccion javaScript, encabezado y pie de pagina...</p>
+        <p id="mi_presentacion1">
+          Esta es mi pagina web, con etiquetas, <s>enlaces</s>, menu, <mark>interaccion javaScript</mark>, encabezado y pie de pagina y <i>más...</i>
+        </p>
+        <p id="mi_presentacion2">
+          <span id="color-texto">Esta es mi pagina web, con etiquetas, enlaces, menu, interaccion javaScript, encabezado y pie de pagina...</span>
+        </p>
         <button id="changeTextButton">Haz clic para cambiar el texto</button>
       </section>
     </main>
